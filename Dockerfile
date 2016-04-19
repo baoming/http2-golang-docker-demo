@@ -5,5 +5,5 @@ ADD webservice webservice
 ADD localhost.crt localhost.crt
 ADD localhost.key localhost.key
 
-EXPOSE 8000/tcp
+EXPOSE 80/tcp
 ENTRYPOINT ["/webservice"]
